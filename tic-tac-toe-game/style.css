@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #348AA7;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 70vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.Box {
+    height: 18vh;
+    width: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; 
+    border: none;
+    border-radius: 1rem;
+    box-shadow: rgb(0,0,0,0.5);
+    font-size: 12vh;
+    color: rgb(160, 94, 225);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+
+#reset-btn {
+    padding: 1rem 2rem;
+    font-size: 3vh;
+    background-color: black;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#reset-btn:hover {
+    background-color: #e50808;
+    transform: scale(1.05);
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+#new-btn {
+    padding: 1.5rem 3rem;
+    font-size: 3vh;
+    background-color: black;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+    
+#new-btn:hover {
+    background-color: #e50808;
+    transform: scale(1.05);
+}
+
+
+.msg-container {
+    height: auto; 
+    padding: 2rem;
+    width: 55vh;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    margin-top: 2rem;
+
+}
+
+#msg {
+    font-size: 3vh; 
+    color: #333;
+    text-transform: uppercase;
+}
+
+.hide {
+    display: none;
+}
+
+.winning-box {
+    background-color: #ffa500;
+}
+
